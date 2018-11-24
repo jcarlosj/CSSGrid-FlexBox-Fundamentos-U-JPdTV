@@ -23,7 +23,13 @@ h2 {
 }
 
 .contenedor-flex {
-    
+    border: 3px dotted blue;
+    display: flex;
+}
+
+.contenedor-inline-flex {
+    border: 3px dotted blue;
+    display: inline-flex;
 }
 
 .elemento-flex {
