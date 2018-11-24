@@ -25,11 +25,12 @@ h2 {
 .contenedor-flex {
     border: 3px dotted blue;
     display: flex;
+    flex-direction: row;
 }
-
-.contenedor-inline-flex {
+.contenedor-flex-reverse {
     border: 3px dotted blue;
-    display: inline-flex;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .elemento-flex {
