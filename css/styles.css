@@ -27,30 +27,18 @@ h2 {
     display: flex;
     flex-flow: row wrap;
 }
-.contenedor-flex-2 {
-    border: 3px dotted blue;
-    display: flex;
-    flex-flow: row wrap-reverse;
-}
 
-.elemento-flex,
-.elemento-flex:nth-child(4),
-.elemento-flex:nth-child(7),
-.elemento-flex:nth-child(10) {
+.elemento-flex {
     padding: 10px;
+}
+.elemento-flex:nth-child(1) {
     background-color: #E53935;
 }
 
-.elemento-flex:nth-child(2),
-.elemento-flex:nth-child(5),
-.elemento-flex:nth-child(8),
-.elemento-flex:nth-child(11) {
+.elemento-flex:nth-child(2) {
     background-color: #8E24AA;
 }
 
-.elemento-flex:nth-child(3),
-.elemento-flex:nth-child(6),
-.elemento-flex:nth-child(9),
-.elemento-flex:nth-child(12) {
+.elemento-flex:nth-child(3) {
     background-color: #3F51B5;
 }
