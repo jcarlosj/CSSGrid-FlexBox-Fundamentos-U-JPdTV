@@ -25,14 +25,12 @@ h2 {
 .contenedor-flex {
     border: 3px dotted blue;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
 }
 .contenedor-flex-2 {
     border: 3px dotted blue;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
+    flex-flow: row wrap-reverse;
 }
 
 .elemento-flex,
