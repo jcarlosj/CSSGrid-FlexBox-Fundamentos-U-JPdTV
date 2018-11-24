@@ -25,23 +25,27 @@ h2 {
 .contenedor-flex {
     border: 3px dotted blue;
     display: flex;
-    flex-direction: column;
-}
-.contenedor-flex-reverse {
-    border: 3px dotted blue;
-    display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
 }
 
-.elemento-flex {
+.elemento-flex,
+.elemento-flex:nth-child(4),
+.elemento-flex:nth-child(7),
+.elemento-flex:nth-child(10) {
     padding: 10px;
     background-color: #E53935;
 }
 
-.elemento-flex:nth-child(2) {
+.elemento-flex:nth-child(2),
+.elemento-flex:nth-child(5),
+.elemento-flex:nth-child(8),
+.elemento-flex:nth-child(11) {
     background-color: #8E24AA;
 }
 
-.elemento-flex:nth-child(3) {
+.elemento-flex:nth-child(3),
+.elemento-flex:nth-child(6),
+.elemento-flex:nth-child(9),
+.elemento-flex:nth-child(12) {
     background-color: #3F51B5;
 }
