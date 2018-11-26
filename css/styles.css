@@ -27,6 +27,21 @@ h2 {
     display: flex;
     flex-flow: row wrap;
 }
+.contenedor-flex-1 {
+    justify-content: flex-start;
+}
+.contenedor-flex-2 {
+    justify-content: flex-end;
+}
+.contenedor-flex-3 {
+    justify-content: center;
+}
+.contenedor-flex-4 {
+    justify-content: space-around;
+}
+.contenedor-flex-5 {
+    justify-content: space-between;
+}
 
 .elemento-flex {
     padding: 10px;
