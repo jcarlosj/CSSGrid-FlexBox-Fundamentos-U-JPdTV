@@ -30,6 +30,7 @@ h2 {
 
 .elemento-flex {
     padding: 10px;
+    flex-grow: 1;
 }
 .elemento-flex:nth-child(1) {
     background-color: #E53935;
@@ -52,6 +53,7 @@ h2 {
   }
   .elemento-flex:nth-child(2) {
       order: 2;
+      flex-grow: 3;
   }
   .elemento-flex:nth-child(3) {
       order: 1;
