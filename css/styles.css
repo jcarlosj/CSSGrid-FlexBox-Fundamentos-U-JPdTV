@@ -107,7 +107,9 @@ footer {
     height: 100px;
     background-color: #8E24AA;
     margin-top: 20px;
-    /* Flex aqui*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 footer p {
     color: white;
