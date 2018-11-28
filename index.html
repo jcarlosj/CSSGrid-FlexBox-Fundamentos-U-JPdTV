@@ -4,134 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Flexbox 01</title>
+    <title>Flexbox Proyecto</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 <body>
     <div class="contenedor">
-        <h1>Aprendiendo Flexbox</h1>
-        <p>Usando en el elemento padre</p>
-        <p><code>display: flex;</code></p>
-        <p><code>flex-flow: row wrap;</code></p>
-        <p><code>justify-content: flex-start;</code></p>
-        <p><code>align-items: flex-start;</code></p>
-        <hr>
-        <p>Usando en el elemento hijo <code>servicio-1</code> </p>
-        <p><code>align-self: stretch;</code></p>
-        <p>Usando en el elemento hijo <code>servicio-2</code> </p>
-        <p><code>align-self: auto;</code></p>
-        <p>Usando en el elemento hijo <code>servicio-3</code> </p>
-        <p><code>align-self: flex-end;</code></p>
-        <div class="contenedor-flex contenedor-flex-1">
-            <div class="elemento-flex elemento-1">
-                <h2>Servicio 1 <br />El mejor</h2>
+
+        <header class="header-sitio">
+                <h1>Nombre Sitio</h1>
+                <nav>
+                        <a href="#">Inicio</a>
+                        <a href="#">Nosotros</a>
+                        <a href="#">Servicios</a>
+                        <a href="#">Portafolio</a>
+                        <a href="#">Contacto</a>
+                </nav>
+        </header>
+
+
+        <main class="contenedor-flex">
+            <div class="principal">
+                <div class="servicios">
+                    <div class="servicio elemento-1">
+                        <h2>Servicio 1</h2>
+                    </div>
+                    <div class="servicio elemento-2">
+                        <h2>Servicio 2</h2>
+                    </div>
+                    <div class="servicio elemento-3">
+                        <h2>Servicio 3</h2>
+                    </div>
+                </div>
             </div>
-            <div class="elemento-flex elemento-2">
-                <h2>Servicio 2</h2>
-            </div>
-            <div class="elemento-flex elemento-3">
-                <h2>Servicio 3</h2>
-            </div>
-        </div>
-        <p>Usando en el elemento padre</p>
-        <p><code>display: flex;</code></p>
-        <p><code>flex-flow: row wrap;</code></p>
-        <p><code>justify-content: flex-end;</code></p>
-        <p><code>align-items: flex-end;</code></p>
-        <hr>
-        <p>Usando en el elemento hijo <code>servicio-1</code> </p>
-        <p><code>align-self: inherit;</code></p>
-        <p>Usando en el elemento hijo <code>servicio-2</code> </p>
-        <p><code>align-self: flex-end;</code></p>
-        <p>Usando en el elemento hijo <code>servicio-3</code> </p>
-        <p><code>align-self: flex-start;</code></p>
-        <div class="contenedor-flex contenedor-flex-2">
-            <div class="elemento-flex elemento-1">
-                <h2>Servicio 1 <br />El mejor</h2>
-            </div>
-            <div class="elemento-flex elemento-2">
-                <h2>Servicio 2</h2>
-            </div>
-            <div class="elemento-flex elemento-3">
-                <h2>Servicio 3</h2>
-            </div>
-        </div>
-        <p>Usando en el elemento padre</p>
-        <p><code>display: flex;</code></p>
-        <p><code>flex-flow: row wrap;</code></p>
-        <p><code>justify-content: center;</code></p>
-        <p><code>align-items: center;</code></p>
-        <hr>
-        <p>Usando en el elemento hijo <code>servicio-1</code> </p>
-        <p><code>align-self: center;</code></p>
-        <p>Usando en el elemento hijo <code>servicio-2</code> </p>
-        <p><code>align-self: stretch;</code></p>
-        <p>Usando en el elemento hijo <code>servicio-3</code> </p>
-        <p><code>align-self: baseline;</code></p>
-        <div class="contenedor-flex contenedor-flex-3">
-            <div class="elemento-flex elemento-1">
-                <h2>Servicio 1 <br />El mejor</h2>
-            </div>
-            <div class="elemento-flex elemento-2">
-                <h2>Servicio 2</h2>
-            </div>
-            <div class="elemento-flex elemento-3">
-                <h2>Servicio 3</h2>
-            </div>
-        </div>
-        <p>Usando en el elemento padre</p>
-        <p><code>display: flex;</code></p>
-        <p><code>flex-flow: row wrap;</code></p>
-        <p><code>justify-content: space-around;</code></p>
-        <p><code>align-items: baseline;</code></p>
-        <p><code>padding: 20px;</code></p>
-        <hr>
-        <p>Usando en el elemento hijo <code>servicio-1</code> </p>
-        <p><code>align-self: flex-start;</code></p>
-        <p>Usando en el elemento hijo <code>servicio-3</code> </p>
-        <p><code>align-self: stretch;</code></p>
-        <div class="contenedor-flex contenedor-flex-4">
-            <div class="elemento-flex elemento-1">
-                <h2>Servicio 1 <br />El mejor</h2>
-            </div>
-            <div class="elemento-flex elemento-2">
-                <h2>Servicio 2</h2>
-            </div>
-            <div class="elemento-flex elemento-3">
-                <h2>Servicio 3</h2>
-            </div>
-        </div>
-        <p>Usando en el elemento padre</p>
-        <p><code>display: flex;</code></p>
-        <p><code>flex-flow: row wrap;</code></p>
-        <p><code>justify-content: space-between;</code></p>
-        <p><code>align-items: stretch;</code></p>
-        <hr>
-        <p>Usando en el elemento hijo <code>servicio-1</code> </p>
-        <p><code>align-self: auto;</code></p>
-        <p>Usando en el elemento hijo <code>servicio-2</code> </p>
-        <p><code>align-self: center;</code></p>
-        <p>Usando en el elemento hijo <code>servicio-3</code> </p>
-        <p><code>align-self: initial;</code></p>
-        <div class="contenedor-flex contenedor-flex-5">
-            <div class="elemento-flex elemento-1">
-                <h2>Servicio 1 <br />El mejor</h2>
-            </div>
-            <div class="elemento-flex elemento-2">
-                <h2>Servicio 2</h2>
-            </div>
-            <div class="elemento-flex elemento-3">
-                <h2>Servicio 3</h2>
-            </div>
-        </div>
-        <div class="desktop">
-          <h1>Desktop</h1>
-        </div>
-        <div class="mobile">
-          <h1>Mobile</h1>
-        </div>
+
+            <aside>
+                <h2>De nuestro blog</h2>
+                <ul>
+                    <li><a href="#">Entrada 1</a></li>
+                    <li><a href="#">Entrada 2</a></li>
+                    <li><a href="#">Entrada 3</a></li>
+                    <li><a href="#">Entrada 4</a></li>
+                    <li><a href="#">Entrada 5</a></li>
+                </ul>
+            </aside>
+        </main>
+
+        <footer>
+            <p>Todos los derechos reservados</p>
+        </footer>
+
     </div>
+
 </body>
 </html>
