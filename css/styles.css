@@ -81,8 +81,11 @@ aside {
     /* Flex aqui*/
 }
 @media screen and (min-width:768px) {
+    .servicios {
+        display: flex;
+    }
     .servicios .servicio {
-        /* Flex aqui*/
+        flex: 1;
     }
 }
 
