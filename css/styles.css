@@ -8,11 +8,13 @@ body {
 .header-sitio {
     background-color: #03A9F4;
     padding:0 20px;
-    /* Flex aqui*/
+    display: flex;
+    flex-direction: column;
 }
 @media screen and (min-width:768px) {
     .header-sitio {
-        /* Flex aqui*/
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
 .header-sitio h1 {
@@ -20,10 +22,10 @@ body {
 }
 
 nav {
-    /* Flex aqui*/
+    align-self: center;
 }
 nav a {
-    color: white; 
+    color: white;
     font-family: 'IBM Plex Serif', serif;
     text-decoration: none;
 }
@@ -47,7 +49,7 @@ h2 {
     margin-top: 20px;
     /* Flex aqui*/
 }
-@media screen and (min-width:768px) { 
+@media screen and (min-width:768px) {
     .contenedor-flex {
        /* Flex aqui*/
     }
